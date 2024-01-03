@@ -1,0 +1,39 @@
+*{list-style-type: none;
+    text-decoration: none;
+}
+body{background-image: url('wall.jpg');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;}
+
+/*This the code of navigation bar*/
+nav ul,h1,li,a{display: inline;
+}
+.lha{color: rgb(255, 0, 0);}
+.logo{margin-right: 600px;
+margin-left: 30px;
+font-weight:4000;
+margin-top: 50px;
+font-size: xx-large;
+color: white;}
+.nav-links{
+    margin-right: 35px;
+    color: rgb(255, 255, 255);
+   
+}
+.contact{border: none;
+    padding: 12px;
+    width: 100px;
+    border-radius:9px ;
+    background-color: red;
+    color: white;
+    margin-left: 30px; 
+}
+.contact:hover{background-color: rgb(214, 75, 75);
+    cursor: pointer;
+    scale: 1.1;
+}
+/*This is the code of text part*/
+.text-part{color: white;
+text-align: center;
+margin-top: 140px;}
